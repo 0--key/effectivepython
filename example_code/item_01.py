@@ -15,10 +15,6 @@
 # limitations under the License.
 
 # Preamble to mimick book environment
-import logging
-from pprint import pprint
-from sys import stdout as STDOUT
-
 
 # Example 1
 import sys

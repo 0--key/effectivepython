@@ -15,15 +15,12 @@
 # limitations under the License.
 
 # Preamble to mimick book environment
-import logging
-from pprint import pprint
-from sys import stdout as STDOUT
 
 
 # Example 3
 def to_unicode(unicode_or_str):
     if isinstance(unicode_or_str, str):
-        value = unicode_or_str.decode('utf-8')
+        value = unicode_or_str.encode('utf-8')
     else:
         value = unicode_or_str
     return value  # Instance of unicode
